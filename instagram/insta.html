@@ -1,0 +1,596 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+       
+        <style>
+            body{
+                background-color: black;
+            }
+            .main-container{
+                position : fixed;
+                padding-right: 65px;
+                border-right: solid 1px gray;  
+                cursor : pointer;  
+            } 
+           .insta_heading{
+                font-size : 25px;
+                margin-left : 30px;
+                font-family :magneto;
+                color:whitesmoke;
+                margin-top: 43px;
+            }
+           .main_con2{
+                position : fixed;     
+            }
+           .icon1{
+                position : absolute;
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 0.5vw;
+                padding-left :2vw;
+            }
+           .icon2{
+                position : absolute;
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 4.5vw;
+                padding-left :2vw;
+            }
+           .icon3{
+                position : absolute;
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 8vw;
+                padding-left :2vw;
+            }
+           .icon4{
+                position : absolute;
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 12vw;
+                padding-left :2vw;
+            }
+           .icon5{
+                position : absolute;
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 15.5vw;
+                padding-left :2vw;
+            }
+           .icon6{
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 19.2vw;
+                padding-left :2vw;
+            }
+           .icon7{
+                padding-bottom: 12px;
+                width : 100%;
+                color: whitesmoke;
+                margin-top : 1.2vw;
+                padding-left :2vw;
+            }
+          
+           .icon1:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }  
+           .icon2:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }   
+           .icon3:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }
+           .icon4:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }
+           .icon5:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }
+           .icon6:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }
+           .icon7:hover{
+                background-color: gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;   
+            }
+           .text_1{
+                font-size : 16px;  
+                margin-left: 14px;
+                font-family : Bahnschrift Light;
+            }
+            .text_2{
+                font-size : 16px;  
+                margin-left: 9px;
+                font-family : Bahnschrift Light;
+            }
+            .text_3{
+                font-size : 16px;  
+                margin-left: 16px;
+                font-family : Bahnschrift Light;
+            }
+            .text_4{
+                font-size : 16px;  
+                margin-left: 16px;
+                font-family : Bahnschrift Light;
+            }
+            .text_5{
+                font-size : 16px;  
+                margin-left: 12.5px;
+                font-family : Bahnschrift Light;
+            }
+            .text_6{
+                font-size : 16px;  
+                margin-left: 12.5px;
+                font-family : Bahnschrift Light;
+            }
+            .text_7{
+                font-size : 16px;  
+                margin-left: 14px;
+                font-family :  Bahnschrift Light;
+            }
+           .pr_imagee{
+                width : 25px;
+                height : 27px;
+                margin-left : 32px;
+                border-radius: 65px;
+            }
+            .main_con3{
+                position : absolute;
+                margin-top : 400px;
+                margin-right : 0.1px;
+                display : flex;     
+            }
+            .main_con3:hover{
+                background-color : gray;
+                border-radius: 10px;
+                width : 30vh;
+                height : 6vh;
+            }
+            .profile,.c3{
+               color : whitesmoke;
+               font-size : 13px;
+               margin-top : 2px;
+               padding-left : 12px;
+            }
+           .main_con4{
+               margin-top : 40vw;
+               padding-left :35px;
+               color : whitesmoke;
+            }
+           .main_con4:hover{
+                background-color : gray;
+                border-radius: 10px;
+                width : 23vh;
+                height : 6vh;
+            }
+            .moree{
+                margin-left : 12px;
+                font-size : 16px;  
+                margin-left: 16px;
+                font-family : Bahnschrift Light;
+            }
+            .anchor_1{
+                text-decoration: none;
+            }
+            .bigger{
+                font-size : 24px;
+            }
+           .middle_container{
+               display : flex;
+               padding-left : 40px;
+            }
+           .mid_pro{
+                position : absolute;
+                margin-left: 260px;
+                margin-top : 55px;   
+            }
+           .mid_pro1{
+                position : absolute;
+                margin-left: 345px;
+                margin-top : 55px;
+            }
+           .mid_pro2{
+                position : absolute;
+                margin-left: 420px;
+                margin-top : 55px;    
+            }
+           .mid_pro3{
+                position : absolute;
+                margin-left: 500px;
+                margin-top : 55px;
+            }
+           .mid_pro4{
+                position : absolute;
+                margin-left: 575px;
+                margin-top : 55px;
+            }
+           .mid_pro5{
+                position : absolute;
+                margin-left: 655px;
+                margin-top : 55px;
+            }
+           .mid_pro6{
+                position: absolute;
+                margin-left: 735px;
+                margin-top : 55px; 
+            }
+           .mid_pro7{
+                position: absolute;
+                margin-left: 815px;
+                margin-top : 55px;
+            }
+           .mid_img{
+                width : 60px;
+                height : 65px;
+                margin-left : 55px;
+                border-radius: 60px;
+                border: 1mm solid #B71375;
+            }
+           .pro_name{
+               text-align : center;
+               color : whitesmoke;
+               font-size : 10px;
+               padding-left : 50px;          
+            }
+           .right-container{
+            position : absolute;
+            }
+           .right_con1{
+                margin-left : 1050px;
+                margin-top : 60px;
+                display : flex;     
+            }
+            .right_c_img{
+                width : 42px;
+                height : 48px;
+                margin-left : 10px;
+                border-radius: 60px;
+            }
+            .pr_id{
+               color : whitesmoke;
+               margin-top : 4px;
+               font-size : 14px;
+               font-family : bahnschrift semibold;
+               padding-left : 10px;
+            }
+            .pr_id2{
+               color : gray;
+               font-size : 14px;
+               padding-left : 3px;
+               font-family: impact;
+            }
+            .pr_id3{
+               color : gray;
+               font-size : 16px;
+               padding-left : 3px;
+               font-family: kristen itc;
+            }
+            .anchor_2{
+                padding-left : 70px;
+                color: blue;
+                text-decoration: none;
+                padding-top : 18px;
+                font-size: 11px;
+            }
+            .anchor_3{
+                padding-left : 150px;
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .suggest{
+                margin-left : 1042px;
+                font-size :13px;
+                color : gray;
+            }
+            .suggest_pr1{
+                display : flex;     
+                margin-left : 137vh;
+                margin-top : 18px;
+            }
+            .suggest_pr2{
+                display : flex;     
+                margin-left : 137vh;
+                margin-top : 8px;
+            }
+            .suggest_pr3{
+                display : flex;     
+                margin-left : 137vh;
+                margin-top : 11px;
+            }
+            .suggest_pr4{
+                display : flex;     
+                margin-left : 137vh;
+                margin-top : 13px;
+            }
+            .suggest_pr5{
+                display : flex;     
+                margin-left : 137vh;
+                margin-top : 22px;
+            }
+            .rimg{
+                width : 35px;
+                height : 40px;
+                margin-left : 32px;
+                border-radius: 65px;
+            }
+            .follow1{
+                margin-top : 1em;
+                margin-left : 120px;
+                color: blue;
+            }
+            .follow2{
+                margin-top : 1em;
+                margin-left : 105px;
+                color: blue;
+            }
+            .follow3{
+                margin-top : 1em;
+                margin-left : 105px;
+                color: blue;
+            }
+            .follow4{
+                margin-top : 1em;
+                margin-left : 135px;
+                color: blue;
+            }
+            .follow5{
+                margin-top : 1em;
+                margin-left : 115px;
+                color: blue;
+            }
+            
+            .mc1{
+                position : absolute;
+                margin-left : 450px;
+                margin-top : -260px;
+                display : flex; 
+            }
+            .mimg{
+                width : 45px;
+                height : 40px;
+                margin-left : 26px;
+                border-radius: 65px;
+            }
+            .m1{
+                font-size : 15px;
+                color : white;
+                margin-left : 12px;
+            }
+            .m11{
+                margin-left : 13px;
+                margin-top : 3px;
+                font-size:13px;
+                color : blue;
+            }
+            .mc1img{
+                margin-top : 8px;
+                margin-left : -0.1px;
+                width : 395px;
+                height : 620px;
+            }
+            .box{
+                object-fit : cover;
+                margin-top : 55px;
+                margin-left : -290px;
+                margin-bottom: 20px;
+                border : 1px solid gray;
+                width : 398px;
+                height : 628px;
+            }
+            .iconn{
+                padding-bottom: 20px;
+                color: whitesmoke;
+                padding-top : 10px;
+            }
+            .bigger1{
+                font-size : 25px;
+                margin-top : 10px;
+                margin-left : 12px;
+            }
+            .bigger2{
+                font-size : 25px;
+                margin-top : 10px;
+                margin-left : 12px;
+            }
+            .bigger3{
+                font-size : 25px;
+                margin-top : 10px;
+                margin-left : 12px;
+            }
+            .bigger4{
+                font-size : 25px;
+                margin-left : 360px;
+            }
+        
+        </style>
+    </head>
+    <body>
+<div class="main-container">
+    <div class="main_con1">
+        <p class="insta_heading">Instagram</p>
+    </div>
+    <div class="main_con2">
+        <div class="icon1">
+            <i class="fa fa-home  bigger"><span class="text_1">Home</span></i>
+        </div>
+        <div class="icon2">
+            <i class="fa fa-search bigger"> <span class="text_2">Search</span></i>
+        </div>
+        <div class="icon3">
+           <i class="fa fa-compass bigger"><span class="text_3">Explore</span></i>
+        </div>
+        <div class="icon4">
+            <i class="fa fa-toggle-right bigger"><span class="text_4">Reels</span></i>
+        </div>
+        <div class="icon5">
+            <i class='fa fa-send-o bigger'><span class="text_5">Messages</span></i>
+        </div>
+        <div class="icon6">
+            <i class="fa fa-heart bigger"><span class="text_6">Notifications</span></i> 
+        </div>
+        <div class="icon7">
+            <i class='fa fa-plus-square-o bigger'><span class="text_7">Create</span></i>
+        </div>
+    </div>
+    <div class="main_con3">
+        <img src="image22.png" class="pr_imagee" alt="">
+        <p class="profile">Profile</p>
+    </div>
+    <div class="main_con4">
+        <i class='fa fa-bars bigger'><a class="anchor_1" href="https://help.instagram.com/110121795815331/?helpref=hc_fnav"><span class="moree">More</span></a></i>
+    </div>
+</div>
+<div class="middle_container">
+    <div class="mid_pro">
+        <img src="dog.png" class="mid_img" alt="">
+        <p class="pro_name">Pavan_Kumar</p>
+    </div>
+    <div class="mid_pro1">
+        <img src="dog2.png" class="mid_img" alt="">
+        <p class="pro_name">Harshi</p>
+    </div>
+    <div class="mid_pro2">
+        <img src="an2.png" class="mid_img" alt="">
+        <p class="pro_name">Kiran_Kumar</p>
+    </div>
+    <div class="mid_pro3">
+        <img src="cat.png" class="mid_img" alt="">
+        <p class="pro_name">Gowri_Sriii</p>
+
+    </div>
+    <div class="mid_pro4">
+        <img src="d3.png" class="mid_img" alt="">
+        <p class="pro_name">Ammu_1d</p>
+    </div>
+    <div class="mid_pro5">
+        <img src="dog4.png" class="mid_img" alt="">
+        <p class="pro_name">Suvarna</p>
+    </div>
+    <div class="mid_pro6">
+        <img src="dog5.png" class="mid_img" alt="">
+        <p class="pro_name">Chythu</p>
+    </div>
+    <div class="mid_pro7">
+        <img src="dog6.png" class="mid_img" alt="">
+        <p class="pro_name">Anu_radha</p>
+    </div>
+</div>     
+<div class="right_container">
+    <div class="right_con1">
+        <img src="image22.png"  class="right_c_img" alt="">
+        <span class="pr_id">Sumana_sri_ariveni
+            <br>
+            <span class="pr_id2">Dad's little angel 
+            <span class="pr_id3">sri</span>
+            </span>
+        </span>
+        <a href="https://www.instagram.com"  class="anchor_2" target="_blank">Switch</a>
+    </div><br/>
+    <div class="right_con2">
+        <span class="suggest">Suggested for you</span>
+        <a href="httpvscode-file://vscode-app/c:/Users/91812/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmls://www.instagram.com/explore/people/" class="anchor_3" target="_blank">see all</a>
+    </div>
+    <div class="right_con3">
+        <div class="suggest_pr1">
+            <img src="dog.png" class="rimg" alt="">
+            <span class="c3">Chythu__143
+                <span class="follow1">Follow</span>
+                <br>
+                <span>Followed by Bhanu_sri</span>
+             
+            </span>
+        </div>
+        <div class="suggest_pr2">
+            <img src="d3.png" class="rimg" alt="">
+            <span class="c3">harshitha__223
+                <span class="follow2">Follow</span>
+                <br>
+                <span>Followed by navya_sri</span>
+            </span>
+        </div>
+        <div class="suggest_pr3">
+            <img src="dog4.png" class="rimg" alt="">
+            <span class="c3">navya_sri_1562
+                <span class="follow3">Follow</span>
+                <br>
+                <span>Followed by charan__123</span>
+            </span>
+        </div>
+        <div class="suggest_pr4">
+            <img src="dog5.png" class="rimg" alt="">
+            <span class="c3">Moni__135
+                <span class="follow4">Follow</span>
+                <br>
+                <span>Followed by Nishi_457</span>
+            </span>
+        </div>
+        <div class="suggest_pr5">
+            <img src="dog6.png" class="rimg" alt="">
+            <span class="c3">suma_sri_714
+                <span class="follow5">Follow</span>
+                <br>
+                <span>Followed by Nishi_457</span>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="middle_Container">
+    <div class="mc1">
+        <img src="shin.png" class="mimg" alt="">
+        <span class="m1">Shin_chan_fan_page &emsp;</span>
+            <span class="m1">1w</span>
+            <span class="m11">Follow</span>
+        <br>
+        <div class="box">
+            <img src="shin1.png" class="mc1img" alt="">
+            <div class="iconn">
+               <span> 
+                    <i class="fa fa-heart bigger1"></i>
+                    <i class="fa fa-comment bigger2"></i>
+                    <i class="fa fa-paper-plane bigger3"></i>
+                    <i class="fa fa-bookmark-o bigger4"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+ 
+        
+    </body>
+</html>
